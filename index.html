@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<!-- Google HTML5 slide template Authors: Luke Mahé (code) Marcin Wichary
+(code and design) Dominic Mazzoni (browser compatibility) Charles Chen
+(ChromeVox support) URL: http://code.google.com/p/html5slides/ -->
+<html>
+
+    <head>
+        <title>
+            Presentation
+        </title>
+        <meta charset='utf-8'>
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <script src='js/prettify.js'>
+
+        </script>
+        <script src='js/slides.js'>
+
+        </script>
+    </head>
+    <style>
+        /* Your individual styles here, or just use inline styles if that’s what
+        you want. */
+    </style>
+
+    <body style='display: none'>
+        <section class='slides layout-regular template-default'>
+
+
+            <!-- SLIDE COVER -->
+            <article>
+                <h1>
+                    Training Frontend CSD
+                </h1>
+                <h2>
+                    HTML5, CSS3, Advanced JS, Backbone & Jasmine
+                </h2>
+                <p>
+                    Dec 17-18-21, 2012
+                </p>
+            </article>
+
+            <!-- SLIDE PROFESOR -->
+            <article class="teacher">
+                <h2>
+                    Profesor: JuanMa Garrido
+                </h2>
+                <ul>
+                    <li>
+                        <a class="icon-envelope" href="mailto:JuanMa.Garrido@gmail.com" target="_blank">JuanMa.Garrido@gmail.com</a>
+                    </li>
+                    <li>
+                        <a class="icon-twitter" href="https://twitter.com/juanmaguitar" target="_blank">@juanmaguitar</a>
+                    </li>
+                    <li>
+                        <a class="icon-linkedin" href="http://www.linkedin.com/in/juanmagarrido" target="_blank">http://www.linkedin.com/in/juanmagarrido</a>
+                    </li>
+                    <li>
+                        <a class="icon-github"href="https://github.com/juanmaguitar" target="_blank">https://github.com/juanmaguitar</a>
+                    </li>
+                </ul>
+            </article>
+
+            <!-- SLIDE OBJETIVOS -->
+            <article>
+                <h2>
+                    Objetivos del Training
+                    </h3>
+                    <p>
+                        Ser capaces de desarrollar una aplicación básica utilizando:
+                        <ul>
+                            <li>
+                                HTML5 + CSS3
+                            </li>
+                            <li>
+                                Javascript orientado a objetos
+                            </li>
+                            <li>
+                                Backbone
+                            </li>
+                            <li>
+                                Unit Testings con Jasmine
+                            </li>
+                        </ul>
+                    </p>
+            </article>
+
+            <!-- SLIDE CONTENIDOS DIA 1 -->
+            <article class='smaller day1'>
+                <h2>Dia 1:  HTML5+CSS3</h2>
+                <ul class="contents">
+                    <li>
+                        <p><strong>HTML5</strong></p>
+                        <ul>
+                            <li>Web Semantica</li>
+                            <li>Video & Audio</li>
+                            <li>Forms</li>
+                            <li>Web Storage</li>
+                            <li>Class Interaction</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p><strong>CSS3</strong></p>
+                        <ul>
+                            <li>Selectores</li>
+                            <li>Fuentes (@font-face)</li>
+                            <li>Text (text-overflow, word-wrap)</li>
+                            <li>Shadow (box-shadow, text-shadow)</li>
+                            <li>Border (border-radius)</li>
+                            <li>Colors (hsla, rgba, opacity)</li>
+                        </ul>
+                    </li>
+
+
+                  </ul>
+            </article>
+
+            <!-- SLIDE CONTENIDOS DIA 1 (y 2)-->
+            <article class='smaller day1'>
+                <h2>Dia 1:  HTML5+CSS3</h2>
+
+                <ul class="contents">
+
+                    <li>
+                        <p><strong>CSS3</strong>  </p>
+                        <ul>
+                            <li>Gradient (linear-gradient, repeating-linear-gradient)</li>
+                            <li>Backgroun (multiple backgrounds)</li>
+                            <li>Transitions</li>
+                            <li>Transform (rotate, scale, skew, translate)
+
+                        </ul>
+                    </li>
+
+                    <li>
+                        <p><strong>HTML5+CSS3 Cross-Browser</strong></p>
+                         <ul>
+                            <li>Modernizr + Pollyfils</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p><strong>Client Side Templating</strong></p>
+                         <ul>
+                            <li>Handlebars</li>
+                        </ul>
+                    </li>
+                  </ul>
+            </article>
+
+            <!-- SLIDE CONTENIDOS DIA 2 -->
+            <article class='smaller day2'>
+                <h2>Dia 2: Javascript orientado a objetos</h2>
+                <ul class="contents">
+
+                    <li>
+                        <p><strong>Funciones</strong></p>
+                        <ul>
+                            <li>Estructura y Parametros</li>
+                            <li>Funciones pre-definidas</li>
+                            <li>Scope de las funciones</li>
+                            <li>Funciones Callback</li>
+                            <li>Closures</li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <p><strong>Objetos</strong></p>
+                        <ul>
+                            <li>Arrays y Objetos</li>
+                            <li>Funciones constructoras</li>
+                            <li>Objeto Global</li>
+                            <li>Trabajando con Objetos</li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <p><strong>El valor de <code>this</code></strong></p>
+                    </li>
+
+                </ul>
+            </article>
+
+            <!-- SLIDE CONTENIDOS DIA 2 (y 2)-->
+            <article class='smaller day2'>
+                <h2>Dia 2: Javascript orientado a objetos</h2>
+                <ul class="contents">
+                     <li>
+                        <p><strong>Prototype</strong></p>
+                        <ul>
+                            <li>Prototype</li>
+                            <li>Cadena de Prototipos</li>
+                            <li>hasOwnProperty</li>
+                            <li>isPrototypeOf</li>
+                            <li>constructor</li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <p><strong>Herencia</strong></p>
+                        <ul>
+                            <li>Encadenamiento de Prototipos</li>
+                            <li>Herencia sólo del prototipo</li>
+                            <li>Encapsulando la herencia en una función</li>
+                            <li>Robando el constructor</li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </article>
+
+            <!-- SLIDE CONTENIDOS DIA 3 -->
+            <article class='smaller day3'>
+                <h2>Dia 3: Backbone & Jasmine</h2>
+                <ul class="contents">
+                    <li>
+                        <p>
+                          <strong>Unit Testings</strong>
+                        </p>
+                        <ul>
+                            <li>TDD y BDD</li>
+                            <li>UT Frameworks</li>
+                            <li>Jasmine</li>
+                            <li>Sinon</li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <p>
+                          <strong>Backbone</strong>
+                        </p>
+                        <ul>
+                            <li>Modelos y Colecciones</li>
+                            <li>Vistas</li>
+                            <li>Routers</li>
+                            <li>Backbone modular con Require.js</li>
+                            <li>Testing Backbone</li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </article>
+
+
+            <!-- SLIDE COVER -->
+            <article class="day1">
+                <h1>HTML5 + CSS3</h1>
+            </article>
+
+            <!-- SLIDE CONTENIDOS DIA 3 -->
+            <article class='smaller day1'>
+                <h2>HTML5</h2>
+
+                <p><a class="icon-file" href="http://media.smashingmagazine.com/wp-content/uploads/images/html5-cheat-sheet/html5-cheat-sheet.pdf" target="_blank">HTML5_ CheatSheet</a></p>
+                <ul class="contents">
+                    <li>
+                       <h3>Web Semantica</h3>
+                        <ul>
+                            <li><a class="icon-external-link" href="http://www.vanseodesign.com/web-design/html5-semantic-elements/" target="_blank">HTML5_ Semantics</a></li>
+                            <li><a class="icon-file" href="http://html5doctor.com/downloads/h5d-sectioning-flowchart.png" target="_blank">HTML5 Element Flowchart</a></li>
+                            <li><a class="icon-external-link" href="http://html5doctor.com/designing-a-blog-with-html5/" target="_blank">Designing a blog with html5</a></li>
+                            <li><a class="icon-external-link" href="http://line25.com/tutorials/create-a-typography-based-blog-layout-in-html5" target="_blank">Based blog layout with html5</a></li>
+
+
+
+                        </ul>
+                    </li>
+
+                    <li>
+                       <h3>Video y Audio</h3>
+                        <ul>
+                            <li><a class="icon-external-link" href="https://developer.mozilla.org/en-US/docs/HTML/Using_HTML5_audio_and_video" target="_blank">HTML5_ VideoAudio</a></li>
+                             <li><a class="icon-external-link" href="https://developer.mozilla.org/en-US/docs/HTML/Element/video" target="_blank">Video (MDN)</a></li>
+                            <li><a class="icon-eye-open demo" href="http://jsfiddle.net/Flocke/NpgD5/" target="_blank">Demo Video Basic (jsFiddle)</a></li>
+                            <li><a class="icon-eye-open demo" href="http://jsfiddle.net/swinginsam/NWbUG/" target="_blank">Demo Video Dynamic Load (jsFiddle)</a></li>
+                           
+
+
+                        </ul>
+                    </li>
+
+
+
+                </ul>
+            </article>
+
+
+            <!-- SLIDE CONTENIDOS DIA 3 -->
+            <article class='smaller day1 columns'>
+                <h2>HTML5</h2>
+
+                <ul class="contents">
+
+                      <li>
+                       <h3>Video y Audio</h3>
+                        <ul>
+                             <li><a class="icon-eye-open demo" href="http://html5demos.com/video" target="_blank">HTML5 Demos: Videos</a></li>
+                            <li><a class="icon-external-link" href="http://html5doctor.com/html5-audio-the-state-of-play/" target="_blank">HTML5 Audio</a></li>
+                            <li><a class="icon-eye-open demo" href="http://jsfiddle.net/lastrose/vkMqR/" target="_blank">Demo Audio Basic (jsFiddle)</a></li>
+
+
+
+                        </ul>
+                    </li>
+                    
+                    <li>
+                        <h3>Forms</h3>
+                        <ul>
+                            <li><a class="icon-external-link" href="http://www.html5rocks.com/es/tutorials/forms/html5forms/" target="_blank">HTML5_ Forms</a></li>
+                            <li><a class="icon-eye-open demo"  href="http://people.opera.com/brucel/demo/html5-forms-demo.html" target="_blank">Forms Demo (Bruce Lawson)</a></li>
+                            <li><a class="icon-eye-open demo" href="http://richardshepherd.com/tv/forms/" target="_blank">Forms Demo (Think Vitamin)</a></li>
+
+
+
+                        </ul>
+                    </li>
+
+
+                 
+
+                </ul>
+            </article>
+
+
+          <!-- SLIDE CONTENIDOS DIA 3 -->
+            <article class='smaller day1 columns'>
+                <h2>HTML5</h2>
+
+                <ul class="contents">
+
+                    <li>
+                        <h3>Data Storage</h3>
+                        <ul>
+                            <li><a class="icon-external-link" href="http://mobile.tutsplus.com/tutorials/mobile-web-apps/browser-storage/" target="_blank">HTML5_ DataStorage</a></li>
+                            <li><a class="icon-external-link" href="http://diveintohtml5.info/storage.html" target="_blank">LocalStorage (Dive into HTML5)</a></li>
+                            <li><a class="icon-eye-open demo" href="http://html5demos.com/storage" target="_blank">HTML5 Demos: Storage</a></li>
+                            <li><a class="icon-eye-open demo" href="http://html5demos.com/storage-events" target="_blank">HTML5 Demos: Storage Events</a></li>
+
+
+                        </ul>
+                    </li>
+                    
+                    <li>
+                        <h3>Class Interaction</h3>
+                        <ul>
+                            <li><a class="icon-external-link" href="http://davidwalsh.name/classlist" target="_blank">classList (Joe Walsh)</a></li>
+                            <li><a class="icon-external-link" href="https://developer.mozilla.org/es/docs/DOM/element.classList" target="_blank">classList (MDN)</a></li>
+                             <li><a class="icon-eye-open demo"  href="http://html5demos.com/classlist" target="_blank">HTML5 Demos: classList</a></li>
+                             <li><a class="icon-external-link" href="https://developer.mozilla.org/en-US/docs/DOM/document.getElementsByClassName
+" target="_blank">getElementsByClassName (MDN)</a></li>
+                            <li><a class="icon-external-link" href="https://developer.mozilla.org/en-US/docs/DOM/Locating_DOM_elements_using_selectors
+" target="_blank">querySelector y querySelectorAll (MDN)</a></li>
+
+
+                        </ul>
+                    </li>
+
+
+                </ul>
+            </article>
+
+
+  <!-- SLIDE CONTENIDOS DIA 3 -->
+            <article class='smaller day1'>
+                <h2>CSS3</h2>
+
+                <ul class="contents">
+
+                      <li> 
+                        <h3>Selectores</h3>
+                        <ul>
+                            <li><a class="icon-external-link" href="http://www.w3.org/TR/selectors/" target="_blank">Selectores</a></li>
+                            <li><a class="icon-external-link" href="http://estelle.github.com/selectors/" target="_blank">Selectores (standardista.com)</a></li>
+                            <li><a class="icon-external-link" href="http://24ways.org/2009/cleaner-code-with-css3-selectors/" target="_blank">Cleaner Code with CSS3 Selectors (24ways.org)</a></li>
+                            
+                        </ul>
+                    </li>
+
+
+                    <li>
+                        <h3>Fuentes</h3>
+                        <ul>
+                            <li><a class="icon-external-link" href="http://www.css3files.com/font/" target="_blank">@font-face</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h3>Text</h3>
+                        <ul>
+                            <li><a class="icon-external-link" href="http://www.css3files.com/text/" target="_blank">text-overflow y word-wrap</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h3>Shadow</h3>
+                        <ul>
+                            <li><a class="icon-external-link" href="http://www.css3files.com/shadow/" target="_blank">box-shadow y text-shadow</a></li>
+                        </ul>
+                    </li>
+
+               
+
+
+
+
+                </ul>
+            </article>
+
+
+
+          <!-- SLIDE CONTENIDOS DIA 3 -->
+            <article class='smaller day1'>
+                <h2>CSS3</h2>
+
+                <ul class="contents">
+
+                    <li>
+                        <h3>Border</h3>
+                        <ul>
+                            <li><a class="icon-external-link" href="http://www.css3files.com/border/" target="_blank">border-radius</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li>
+                        <h3>Colors</h3>
+                        <ul>
+                            <li><a class="icon-external-link" href="http://www.css3files.com/color/" target="_blank">hsla, rgba y opacity</a></li>
+                        </ul>
+                    </li>
+
+                      <li>
+                        <h3>Gradientes</h3>
+                        <ul>
+                            <li><a class="icon-external-link" href="http://www.css3files.com/gradient/" target="_blank">linear-gradient y repeating-linear-gradient</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li>
+                        <h3>Background</h3>
+                        <ul>
+                            <li><a class="icon-external-link" href="http://www.css3files.com/background/" target="_blank">(multiple backgrounds)</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li>
+                        <h3>Transitions</h3>
+                        <ul>
+                            <li><a class="icon-external-link" href="http://www.css3files.com/transition/" target="_blank">transition</a></li>
+                        </ul>
+                    </li>
+
+
+
+
+                </ul>
+            </article>
+
+  <!-- SLIDE CONTENIDOS DIA 3 -->
+            <article class='smaller day1'>
+                <h2>Features Detection y Templating</h2>
+
+                <ul class="contents">
+
+
+                    <li>
+                        <h3>Transform</h3>
+                        <ul>
+                            <li><a class="icon-external-link" href="http://www.css3files.com/transform/" target="_blank">rotate, scale, skew y translate</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li>
+                        <h3>Features Detection</h3>
+                        <ul>
+                            <li><a class="icon-external-link" href="http://modernizr.com/" target="_blank">Modernizr</a></li>
+                            <li><a class="icon-external-link" href="http://modernizr.com/docs/#installing" target="_blank">Modernizr (documentation)</a></li>
+                            <li><a class="icon-external-link" href="http://html5doctor.com/using-modernizr-to-detect-html5-features-and-provide-fallbacks/" target="_blank">Modernizr (html5doctor)</a></li>
+                            <li><a class="icon-github" href="https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills" target="_blank">HTML5 Cross Browser Polyfills</a></li>
+
+                        </ul>
+                    </li>
+
+                      <li>
+                        <h3>Templating</h3>
+                        <ul>
+                            <li><a class="icon-external-link" href="http://handlebarsjs.com/" target="_blank">Handlebars</a></li>
+                            <li><a class="icon-eye-open demo"  href="http://www.raymondcamden.com/index.cfm/2012/4/19/Demo-of-Handlebars-and-why-you-should-consider-a-templating-engine" target="_blank"> Handlebars (demos)</a></li>
+                        </ul>
+                    </li>
+
+
+                </ul>
+            </article>
+
+            <article class="ex1 desc day1">
+                <h3>Ejercicio 1: Smashing Articles</h3>
+                <p>Hacer el marcado semantico del layout segun la estructura sugerida.</p>
+                <p><em>(Click en la imagen para ver el layout completo)</em></p>
+                 <p>
+                    <a href="exercises/Day1_Ex1_SmashArticles/snapshot_small.jpg" target="_blank">
+                        <img class='centered' style='height: 400px' src='exercises/Day1_Ex1_SmashArticles/snapshot_small.jpg'>
+                    </a>
+                    <a href="exercises/Day1_Ex1_SmashArticles/design-x-ray.png" target="_blank">
+                        <img class='centered' style='height: 400px' src='exercises/Day1_Ex1_SmashArticles/design-x-ray.png'>
+                    </a>
+                </p>
+            </article>
+
+            <article class="ex1 desc day1">
+                <h3>Solución Ejercicio 1: Smashing Articles</h3>
+                <p><a class="icon-external-link" target="_blank" href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Designing a HTML5 Layout from scratch</a> <em>(post explicativo de Smashing Magazine)</em></p>
+                <p><a class="icon-ok" target="_blank" href="http://media.smashingmagazine.com/wp-content/uploads/images/smashing-html5/files/index.html">Solution (web)</a></p>
+            </article>
+            
+            <article class="ex1 desc day1">
+                <h3>Ejercicio 2: Portfolio</h3>
+                <p>Hacer el marcado semantico del siguiente layout en una sola pagina.</p>
+                <p><em>(Click en la imagen para ver el layout completo)</em></p>
+                 <p>
+                    <a href="exercises/Day1_Ex2_Portfolio/snapshot_detail.jpg" target="_blank">
+                        <img class='centered' style='height: 300px' src='exercises/Day1_Ex2_Portfolio/snapshot.png'>
+                    </a>
+                </p>
+            </article>
+
+          <article class="ex1 desc day1">
+                <h3>Solucion Ejercicio 2: Portfolio</h3>
+                <p><a class="icon-external-link"  target="_blank" href="http://inspectelement.com/tutorials/code-a-backwards-compatible-one-page-portfolio-with-html5-and-css3/">Code a Backwards Compatible, One Page Portfolio with HTML5 and CSS3</a> <em>(post explicativo)</em></p>
+
+                <p><a class="icon-ok" target="_blank" href="http://inspectelement.com/html5portfolio/">Solution (web)</a></p>
+                <p><a class="icon-download" target="_blank" href="http://inspectelement.com/html5portfolio/HTML5_portfolio.zip">Download Files</a></p>
+            </article>
+
+            <article class="ex1 desc day1">
+                <h3>Ejercicio 2: Portfolio (Extra)</h3>
+                <p>Crea una nueva seccion (adoptando el diseño) que sea un Libro de Visitas:</p>
+                <ul>
+                    <li>
+Constará de un FORM donde el usuario podrá introducir : Nombre, Mail, URL, Comment
+                    </li>
+                    <li>
+Al enviar el formulario estos datos se guardaran en LocalStorage (JSON) y se iran mostrando estos comentarios en la pagina
+                    </li>
+                    <li>
+Para mostrar los comentarios utilizaremos un template
+                    </li>
+                </ul>
+
+            </article>
+
+            <!-- SLIDE COVER -->
+            <article class="day2">
+                <h1>Javascript orientado a objetos</h1>
+            </article>
+
+            <!-- SLIDE CONTENIDOS DIA 3 -->
+            <article class='smaller day2'>
+                <h2>Javascript orientado a objetos</h2>
+
+                <ul class="contents">
+
+                    <li>
+                        <p><strong>Funciones</strong></p>
+                        <ul>
+                            <li><a class="icon-github" target="_blank" href="https://github.com/juanmaguitar/training-frontend-docs/tree/master/funciones">Estructura y Parametros</a></li>
+                            <li><a class="icon-github" target="_blank" href="https://github.com/juanmaguitar/training-frontend-docs/tree/master/funciones#funciones-pre-%C2%AD%E2%80%90definidas">Funciones pre-definidas</a></li>
+                            <li><a class="icon-github" target="_blank" href="https://github.com/juanmaguitar/training-frontend-docs/tree/master/funciones#%C3%81mbito-scope-de-las-funciones">Scope de las funciones</a></li>
+                            <li><a class="icon-github" target="_blank" href="https://github.com/juanmaguitar/training-frontend-docs/tree/master/funciones#funciones-callback">Funciones Callback</a></li>
+                            <li><a class="icon-github" target="_blank" href="https://github.com/juanmaguitar/training-frontend-docs/tree/master/funciones#closures">Closures</a></li>
+                        </ul>
+                        <p><a class="icon-external-link" target="_blank" href="http://msdn.microsoft.com/en-us/magazine/ff696765.aspx">Ejemplos de Closures</a></p>
+                    </li>
+
+                    <li>
+                        <p><strong>Objetos</strong></p>
+                        <ul>
+                            <li><a class="icon-github" target="_blank" href="https://github.com/juanmaguitar/training-frontend-docs/tree/master/objetos#arrays">Arrays</a></li>
+                            <li><a class="icon-github" target="_blank" href="https://github.com/juanmaguitar/training-frontend-docs/tree/master/objetos#objetos">Objetos</a></li>
+                            <li><a class="icon-github" target="_blank" href="https://github.com/juanmaguitar/training-frontend-docs/tree/master/objetos#funciones-constructoras">Funciones Constructoras</a></li>
+                             <li><a class="icon-github" target="_blank" href="https://github.com/juanmaguitar/training-frontend-docs/tree/master/objetos#trabajando-con-objetos">Trabajando con Objetos</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <p><strong><a class="icon-github" target="_blank" href="https://github.com/juanmaguitar/training-frontend-docs/tree/master/this#el-valor-de-this">El valor de <code>this</code></a></strong></p>
+                    </li>
+
+                </ul>
+            </article>
+
+<article class='day2'>
+                <section>
+<pre>var x = 'Hello World';
+function foo(){
+    var x;
+    alert( x );
+    x = 'New Value';
+    alert( x );
+}
+foo();</pre>
+                </section>
+                <p>¿Qué devolveran los alert? ¿Por qué?</p>
+            </article>
+
+            <article class='day2'>
+                <section>
+<pre>function test() {
+    foo();
+    bar();
+    var foo = function () {
+        alert("this won't run!");
+    }
+    function bar() {
+        alert("this will run!");
+    }
+}
+test();</pre>
+                </section>
+                <p>¿Qué devolverá la ejecución de test?</p>
+            </article>
+
+
+
+            <article class='day2'>
+                <section>
+<pre>var a = 1;
+function f() {
+    var a = 2;
+    function n() {
+        alert(a);
+    }
+    n();
+}
+f();</pre>
+                </section>
+                <p>¿Qué nos mostrará este código en el alert()?</p>
+            </article>
+
+            <article class='day2'>
+                <section>
+<pre>function F() {
+    function C() {
+        return this;
+    }
+    return C();
+}
+var o = new F();</pre>
+                </section>
+                <p>¿El valor de this se referirá al objeto global o al objeto o?</p>
+            </article>
+
+            <article class='day2'>
+                <section>
+<pre>function C(){
+    this.a = 1;
+    return false;
+}
+console.log(typeof new C());</pre>
+                </section>
+                <p>¿Cuál es el resultado de ejecutar este trozo de código?</p>
+            </article>
+
+<article class='day2'>
+                <section>
+<pre>var add = function (x, y) {
+    this.val = x + y;
+},
+obj = { val: 0 };
+add.apply(obj, [2, 8]);
+console.log(obj.val);
+</pre>
+                </section>
+                <p>¿Qué devolverá el <code>console.log</code>? ¿A quien apunta <code>this</code> al llamar add ?</p>
+            </article>
+
+            <article class='day2'>
+                <section>
+<pre>function C(){
+    this.a = 1;
+    return false;
+}
+console.log(typeof new C());</pre>
+                </section>
+                <p>¿Cuál es el resultado de ejecutar este trozo de código?</p>
+            </article>
+
+<article class='day2'>
+                <section>
+<pre>var myObject = {
+    func1:function() {
+        console.log(this);
+        varfunc2 = function() {
+            console.log(this);
+            varfunc3=function() {
+                console.log(this);
+            }();
+        }();
+    }
+};
+myObject.func1();
+</pre>
+                </section>
+                <p>¿Qué devolverá la ejecución de myObject.func1? ¿Por qué?</p>
+            </article>
+
+<article class='day2'>
+                <section>
+<pre> var myObject = {
+    myProperty:'Icanseethelight',
+    myMethod:function() {
+        var that=this;
+        var helperFunction function() {
+            console.log(that.myProperty);
+            console.log(this);
+        }();
+    }
+}
+myObject.myMethod();
+</pre>
+                </section>
+                <p>¿Qué devolverá la ejecución de myObject.myMethod? ¿Por qué?</p>
+            </article>
+
+            <!-- SLIDE CONTENIDOS DIA 3 -->
+            <article class='smaller day2'>
+                  <h2>Javascript orientado a objetos</h2>
+
+
+                <ul class="contents">
+
+                   
+                    <li>
+                        <p><strong><a class="icon-github" target="_blank" href="https://github.com/juanmaguitar/training-frontend-docs/tree/master/prototype#prototype">Prototype</a></strong></p>
+                        <ul>
+                            <li><a class="icon-github" target="_blank" href="https://github.com/juanmaguitar/training-frontend-docs/tree/master/prototype#cadena-de-prototipos">Cadena de Prototipos</a></strong></li>
+                            <li><a class="icon-github" target="_blank" href="https://github.com/juanmaguitar/training-frontend-docs/tree/master/prototype#el-metodo-hasownproperty">hasOwnProperty</a></strong></li>
+                            <li><a class="icon-github" target="_blank" href="https://github.com/juanmaguitar/training-frontend-docs/tree/master/prototype#el-metodo-isprototypeof">isPrototypeOf</a></strong></li><li><a target="_blank" href="https://github.com/juanmaguitar/training-frontend-docs/tree/master/prototype#la-propiedad-constructor">constructor</a></strong></li>
+                        </ul>
+                    </li>
+
+
+                    <li>
+                        <p><strong><a class="icon-github" target="_blank" href="https://github.com/juanmaguitar/training-frontend-docs/tree/master/herencia#herencia">Herencia</a></strong></p>
+                        <ul>
+                            <li><a class="icon-github" target="_blank" href="https://github.com/juanmaguitar/training-frontend-docs/tree/master/herencia#encadenamiento-de-prototipos-prototype-chaining">Encadenamiento de Prototipos (Prototype Chaining)</a></strong></li>
+                            <li><a class="icon-github" target="_blank" href="https://github.com/juanmaguitar/training-frontend-docs/tree/master/herencia#moviendo-metodos-re-utilizables-al-prototypo">Moviendo metodos re-utilizables al prototypo</a></strong></li>
+                            <li><a class="icon-github" target="_blank" href="https://github.com/juanmaguitar/training-frontend-docs/tree/master/herencia#herencia-s%C3%B3lo-del-prototipo">Herencia sólo del prototipo</a></strong></li>
+                            <li><a class="icon-github" target="_blank" href="https://github.com/juanmaguitar/training-frontend-docs/tree/master/herencia#funci%C3%B3n-constructora-temporal-f">Función constructora temporal F()</a></strong></li>
+                            <li><a class="icon-github" target="_blank" href="https://github.com/juanmaguitar/training-frontend-docs/tree/master/herencia#robando-el-constructor">Robando el constructor</a></strong></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </article>
+
+<article class='day2'>
+                <section>
+<pre>var Person = function(x){
+    if(x){this.fullName = x};
+};
+Person.prototype.whatIsMyFullName = function() {
+    return this.fullName;
+}
+
+var cody = new Person('cody lindley');
+var lisa = new Person('lisa lindley');
+console.log(cody.whatIsMyFullName(), lisa.whatIsMyFullName());
+
+Object.prototype.fullName = 'John Doe';
+var john = new Person();
+console.log(john.whatIsMyFullName());
+</pre>
+                </section>
+                <p>¿Qué devolveran los console.log? ¿Por qué?</p>
+            </article>
+
+            <article class="ex1 desc day2">
+                <h3>Ejercicio: KOAN Javascript-Jasmine</h3>
+                <p>Realiza el siguiente <a class="icon-github" target="_blank" href="https://github.com/mrdavidlaing/javascript-koans">KOAN</a></p>
+            </article>
+            
+            <article class="ex1 desc day2">
+                <h3>Solución Ejercicio: KOAN Javascript-Jasmine</h3>
+                <p><a class="icon-github" target="_blank" href="https://github.com/juanmaguitar/javascript-koans">Solution Code</a></p>
+                <p><a class="icon-ok" target="_blank" href="http://juanmaguitar.github.com/javascript-koans/">Solution Tests Jasmine</a></p>
+            </article>
+
+            
+            <!-- SLIDE COVER -->
+            <article class="day3">
+                <h1>Backbone & Unit Testings con Jasmine</h1>
+            </article>
+
+            <!-- SLIDE CONTENIDOS DIA 3 -->
+            <article class='smaller day3'>
+                <h2>Backbone</h2>
+
+                <ul class="contents ">
+
+                    <li>
+                        <p><strong><a target="_blank" href="http://backbonejs.org/">Backbone Intro</a></strong></p>
+                        <ul>
+                            <li><a class="icon-book" target="_blank" href="http://addyosmani.github.com/backbone-fundamentals/#what-is-mvc">What is MVC?</a></li>
+                            <li><a class="icon-book" target="_blank" href="http://addyosmani.github.com/backbone-fundamentals/#what-is-backbone.js">What is Backbone?</a></li>
+                            <li><a class="icon-book" target="_blank" href="http://addyosmani.github.com/backbone-fundamentals/#why-should-you-consider-using-backbone.js">Why should you consider using Backbone.js?</a></li>
+
+                            <li><a class="icon-book" target="_blank" href="http://addyosmani.github.com/backbone-fundamentals/#mvc-mvp-and-backbone.js">Backbone as a MV* pattern</a></li>
+                            <li><a class="icon-book" target="_blank" href="http://addyosmani.github.com/backbone-fundamentals/#fast-facts">Ideas Claras sobre Backbone</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <p><strong>Backbone Elements</strong></p>
+                        <ul>
+                            <li><a class="icon-book" target="_blank" href="http://addyosmani.github.com/backbone-fundamentals/#models-1">Models</a>
+                                <ul>
+                                    <li>Initialization</li>
+                                    <li>Getters & Setters</li>
+                                    <li>Listening for changes to your model</li>
+                                    <li>Validation</li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                </ul>
+            </article>
+
+            <!-- SLIDE CONTENIDOS DIA 3 -->
+            <article class='smaller day3'>
+                <h2>Backbone</h2>
+
+                <ul class="contents">
+
+
+                    <li>
+                        <p><strong>Backbone Elements</strong></p>
+                        <ul>
+
+                            <li><a class="icon-book" target="_blank" href="http://addyosmani.github.com/backbone-fundamentals/#views-1">Views</a>
+                                <ul>
+                                    <li>Creating new views</li>
+                                    <li><code>el</code></li>
+                                    <li><code>render()</code></li>
+                                    <li><code>events</code></li>
+                                </ul>
+                            </li>
+
+                            <li><a class="icon-book" target="_blank" href="http://addyosmani.github.com/backbone-fundamentals/#collections">Collections</a>
+                                <ul>
+                                    <li>Getters and Setters</li>
+                                    <li>Listening for events</li>
+                                    <li>Fetching models from the server</code></li>
+                                    <li>Underscore utility functions (arrays)</li>
+                                </ul>
+                            </li>
+
+                            <li><a class="icon-book" target="_blank" href="http://addyosmani.github.com/backbone-fundamentals/#events">Events</a>
+                                <ul>
+                                    <li><code>on</code></li>
+                                    <li><code>off</code></li>
+                                    <li><code>trigger</code></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                </ul>
+            </article>
+
+            <!-- SLIDE CONTENIDOS DIA 3 -->
+            <article class='smaller day3'>
+                <h2>Backbone</h2>
+
+                <ul class="contents">
+                    <li>
+                        <p><strong>Backbone Elements</strong></p>
+                        <ul>
+
+                            <li><a class="icon-book" target="_blank" href="http://addyosmani.github.com/backbone-fundamentals/#routers">Routers</a>
+                                <ul>
+                                    <li><code>routes</code></li>
+                                    <li><code>Backbone.history</code></li>
+                                    <li><code>navigate</code></li>
+
+                                </ul>
+                            </li>
+
+                            <li><a class="icon-book" target="_blank" href="http://addyosmani.github.com/backbone-fundamentals/#inheritance-mixins">Inheritance & Mixins</a>
+                            </li>
+
+                            <li><a class="icon-book" target="_blank" href="http://addyosmani.github.com/backbone-fundamentals/#namespacing">Namespacing</a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                </ul>
+            </article>
+
+            <article class="ex1 desc day3">
+                <h3>Ejercicio (guiado): To-Do</h3>
+                <p>Realiza una aplicación "To-Do" con <a class="icon-book" target="_blank" href="http://addyosmani.github.com/backbone-fundamentals/#exercise-1-todos---your-first-backbone.js-app">las siguientes indicaciones</a></p>
+            </article>
+            
+            <article class="ex1 desc day2">
+                <h3>Solución Ejercicio (guiado): To-Do</h3>
+                <p><a class="icon-comment-alt" target="_blank" href="http://documentcloud.github.com/backbone/docs/todos.html">Solution Code (Commented)</a></p>
+                <p><a class="icon-hand-up" target="_blank" href="http://documentcloud.github.com/backbone/examples/todos/index.html">Solution Online</a></p>
+            </article>
+
+            <article class='smaller day3'>
+                <h2>Unit Testing | Jasmine</h2>
+
+                <ul class="contents">
+                    <li>
+                        <p><strong><a class="icon-github" target="_blank" href="https://github.com/juanmaguitar/training-frontend-docs/tree/master/unit_testings#1--unit-testings-pruebas-unitarias">Unit Testings</a></strong></p>
+                        <ul>
+                            <li>El unit (La unidad a testear)</li>
+                            <li>Code coverage (Cobertura de código)</li>
+                            <li>Mi primer Unit Testing</li>
+                        </ul>
+                    </li>
+
+                     <li>
+                        <p><strong><a class="icon-github" target="_blank" href="https://github.com/juanmaguitar/training-frontend-docs/tree/master/unit_testings#2--tdd-y-bdd">TDD y BDD</a></strong></p>
+                    </li>
+
+                    <li>
+                        <p><strong><a class="icon-github" target="_blank" href="https://github.com/juanmaguitar/training-frontend-docs/tree/master/unit_testings#3--testing-frameworks">Testing Frameworks</a></strong></p>
+                        <ul>
+                            <li><a class="icon-github" target="_blank" href="https://github.com/juanmaguitar/training-frontend-docs/tree/master/unit_testings#jstestdriver">jsTestDriver</a></li>
+                            <li><a class="icon-github" target="_blank" href="https://github.com/juanmaguitar/training-frontend-docs/tree/master/unit_testings#qunit">QUnit</a></li>
+                            <li><a class="icon-github" target="_blank" href="https://github.com/juanmaguitar/training-frontend-docs/tree/master/unit_testings#jasmine">Jasmine</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <p><strong><a class="icon-github" target="_blank" href="https://github.com/juanmaguitar/training-frontend-docs/tree/master/unit_testings#4--sinon">Sinon</a></strong></p>
+                        <ul>
+                            <li><a class="icon-github" target="_blank" href="https://github.com/juanmaguitar/training-frontend-docs/tree/master/unit_testings#test-spies">Spies</a></li>
+                            <li><a class="icon-github" target="_blank" href="https://github.com/juanmaguitar/training-frontend-docs/tree/master/unit_testings#test-stubs">Stubs</a></li>
+                            <li><a class="icon-github" target="_blank" href="https://github.com/juanmaguitar/training-frontend-docs/tree/master/unit_testings#mocks">Mockups</a></li>
+                        </ul>
+                    </li>
+
+
+                </ul>
+            </article>
+
+                        <article class='smaller day3'>
+                <h2>Unit Testing | Jasmine</h2>
+
+                <ul class="contents">
+                    <li>
+                        <p><strong><a class="icon-book" target="_blank" href="http://addyosmani.github.com/backbone-fundamentals/#jasmine">Jasmine</a></strong></p>
+                        <ul>
+                            <li><a class="icon-book" target="_blank" href="http://addyosmani.github.com/backbone-fundamentals/#suites-specs-spies">Suites, Specs & Spies</a>
+                            <ul>
+                                <li><a class="icon-github" target="_blank" href="https://github.com/pivotal/jasmine/wiki/Spies">Spies</a></li>
+                                <li><a class="icon-external-link" target="_blank" href="http://techblog.appnexus.com/2011/non-destructive-spies-in-jasmine/">Non destructive Spies</a></li>
+                            </ul>
+                            </li>
+                            <li><a class="icon-book" target="_blank" href="http://addyosmani.github.com/backbone-fundamentals/#beforeeach-and-aftereach">beforeEach and afterEach()</a></li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <p><strong><a class="icon-book" target="_blank" href="http://addyosmani.github.com/backbone-fundamentals/#tdd-with-backbone">TDD con Backbone</a></strong></p>
+                        <ul>
+                            <li><a class="icon-book" target="_blank" href="http://addyosmani.github.com/backbone-fundamentals/#models-2">Models</a></li>
+                            <li><a class="icon-book" target="_blank" href="http://addyosmani.github.com/backbone-fundamentals/#collections-2">Collections</a></li>
+                            <li><a class="icon-book" target="_blank" href="http://addyosmani.github.com/backbone-fundamentals/#views-3">Views</a>
+                                <ul>
+                                    <li><p><a class="icon-github" target="_blank" href="https://github.com/velesin/jasmine-jquery">The Jasmine jQuery Plugin</a>
+                                    (jQuery matchers, HTML Fixtures...)</p>
+                                    </li>
+                                    <li>Fixtures</li>
+                                    <li><a class="icon-book" target="_blank" href="http://addyosmani.github.com/backbone-fundamentals/#rendering-with-a-templating-system">Rendering with a Templating System</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </li>
+                </ul>
+            </article>
+
+             <article class="ex1 desc day3">
+                <h3>Ejercicio: KOAN Backbone-Jasmine</h3>
+                <p>Realiza el siguiente <a class="icon-github" target="_blank" href="https://github.com/larrymyers/backbone-koans">KOAN</a></p>
+            </article>
+            
+            <!-- http://juanmaguitar.github.com/backbone-koans/specrunner.html#articles/2011/07/01/a_blog_post -->
+            <!-- https://github.com/juanmaguitar/backbone-koans -->
+            
+            <article class="ex1 desc day2">
+                <h3>Solución Ejercicio: KOAN Backbone-Jasmine</h3>
+                <p><a class="icon-hand-up" target="_blank" href="http://juanmaguitar.github.com/backbone-koans/">App Online</a></p>
+                <p><a class="icon-ok" target="_blank" href="http://juanmaguitar.github.com/backbone-koans/specrunner.html#articles/2011/07/01/a_blog_post">Tests Online</a></p>
+                <p><a class="icon-github" target="_blank" href="https://github.com/juanmaguitar/backbone-koans">Solution Code</a></p>
+            </article>
+
+            <article class='smaller day3'>
+                <h2>Unit Testing | Jasmine</h2>
+
+                <ul class="contents">
+                    <li>
+                        <p><strong><a class="icon-book" target="_blank" href="http://addyosmani.github.com/backbone-fundamentals/#modular-development">Modular Development</a></strong></p>
+                        <ul>
+                            <li><a class="icon-book" target="_blank" href="http://addyosmani.github.com/backbone-fundamentals/#organizing-modules-with-requirejs-and-amd">Organizing modules with RequireJS and AMD</a>
+                            </li>
+                            <li><a class="icon-book" target="_blank" href="http://addyosmani.github.com/backbone-fundamentals/#writing-amd-modules-with-requirejs">Writing AMD modules with RequireJS</a> (Wrapping modules, views and other components with AMD)
+                            </li>
+                            <li><a class="icon-book" target="_blank" href="http://addyosmani.github.com/backbone-fundamentals/#keeping-your-templates-external-using-requirejs-and-the-text-plugin">Keeping Your Templates External Using RequireJS And The Text Plugin</a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                </ul>
+            </article>
+
+            <article class="ex1 desc day3">
+                <h3>Ejercicio (guiado): To-Do Modular</h3>
+                <p>Con <a class="icon-book" target="_blank" href="http://addyosmani.github.com/backbone-fundamentals/#exercise-building-a-modular-backbone-app-with-amd-requirejs">las siguientes indicaciones</a> realiza la aplicación "To-Do" aplicando una arquitectura modular con require.js</p>
+            </article>
+
+
+            <article class="ex1 desc day3">
+                <h3>Solución Ejercicio (guiado): To-Do Modular</h3>
+                <p><a class="icon-github" target="_blank" href="https://github.com/addyosmani/todomvc/tree/gh-pages/dependency-examples/backbone_require">Solution Code</a></p>
+            </article>
+
+            <article class="day3">
+                <h3>Otro Ejemplo App To-Do Modular (tested): backbone + require.js + jasmine</h3>
+                <p><a class="icon-github" target="_blank" href="https://github.com/uzikilon/Todos">Repositorio</a></p>
+                <p><a class="icon-hand-up" target="_blank" href="http://uzikilon.github.com/Todos/">App Demo</a></p>
+                <p><a class="icon-external-link" target="_blank" href="http://kilon.org/blog/2012/08/build-backbone-apps-using-requirejs/">App Explained</a></p>
+                <p><a class="icon-ok" target="_blank" href="http://uzikilon.github.com/Todos/test/jasmine/">Tests</a></p>
+                <p><a class="icon-external-link" target="_blank" href="http://kilon.org/blog/2012/08/testing-backbone-requirejs-applications-with-jasmine/">Tests Explained</a></p>
+            </article>
+
+            <article>
+                <h3>
+                    Thank you!
+                </h3>
+              
+            </article>
+
+
+        </section>
+    </body>
+
+</html>
