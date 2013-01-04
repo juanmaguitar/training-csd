@@ -2,7 +2,7 @@
 
 ## Descripción ##
 
-Este repositorio contiene los materiales de la formación realizada para la empresa CSD durante los dias 17,18 y 21 de Diciembre de 2012
+Este repositorio contiene los materiales de la formación realizada para la empresa [CSD](http://www.csd.com.es/) durante los dias 17,18 y 21 de Diciembre de 2012
 
 ## Objetivos del Training ##
 
@@ -12,6 +12,10 @@ Ser capaces de desarrollar una aplicación básica utilizando:
 - Javascript orientado a objetos
 - Backbone
 - Unit Testings con Jasmine
+
+## Materiales ##
+
+Puedes acceder a la presentación utilizada en la formacion desde aqui: http://juanmaguitar.github.com/training-csd/#1
 
 ## Utilizar este material ##
 
